@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+ 
+/* This is our big boy it seems will have a layer down to implement cool css */
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  /* z-index: 0; */
+}
+
+.shaped_bg{
+  height: 100vh;
+  background-color: red;
+  /* background-color: linear-gradient(to right bottom,
+  rgba(126,213,111,0.8),
+  rgba(40,180,131,0.8)); */
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(50% 0,100% 75vh,100% 100vh,0 100%,0 75vh);
+}
+
+.upload-container{
+  background-color: aliceblue;
+  padding: 30px;
+  height: 75vh;
+  width: 50vw !important;
+  font-size: 34px;
+  color: black;
+  border-radius: 1em;
+  position: absolute;
+  /* z-index: 1; */
+}
+
+/* Gonna have to improve on and see where i can improve */
+.custom-file-upload-no-files{
+  border: 2px dashed #ccc;
+  color: black;
+  height: 3em;
+  width: 6em;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.custom-file-upload{
+  border: 2px dashed #999;
+  color: black;
+  height: 3em;
+  width: 6em;
+  background-color: #ddd;
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.custom-file-upload-files{
+  border: 2px dashed #ccc;
+  color: black;
+  height: 1em;
+  width: 1em;
+  background-color: transparent;
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.clear_files{
+  border: 1px solid #ccc;
+  color: aliceblue;
+  background-color: darkred;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 20px;
+}
+
+.upload-container #h3{
+  margin: 10px;
+}
+
+/* Dialog styling below */
+.dialog_title {
+  font-size: 30px !important;
+  color: #fff;
+}
+
+.dialog_title_container_error {
+  display: flex;
+  justify-content: center;
+  background-color: darkred;
+}
+
+.dialog_title_container_success {
+  display: flex;
+  justify-content: center;
+  background-color: lightgreen;
+}
