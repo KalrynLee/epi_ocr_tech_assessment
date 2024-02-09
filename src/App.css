@@ -2,6 +2,7 @@
   text-align: center;
 }
  
+
 /* Gonna see if i can get this guy to not be the main */
 .App-main {
   background-color: #282c34;
@@ -22,7 +23,7 @@
 .upload-container{
   background-color: aliceblue;
   height: 75vh;
-  width: 50vw !important;
+  width: 40vw !important;
   font-size: 34px;
   color: black;
   border-radius: 1em;
@@ -83,7 +84,7 @@
 
 .clear_files:hover{
   background-color: transparent;
-  color: #000;
+  color: #000
 }
 
 .upload-container #h3{

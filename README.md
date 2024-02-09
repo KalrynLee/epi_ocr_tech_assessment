@@ -8,7 +8,7 @@ This project is built using the Nodejs, if you do not have Nodejs download nodej
 
 ## New to NodeJS?
 
-Links to download node to
+Links to download nodeJS https://nodejs.org/en/download
 
 Once installed you may have to include the installtion path onto your environment variables:
 
