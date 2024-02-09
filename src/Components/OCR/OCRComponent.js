@@ -42,6 +42,7 @@ const OCRComponent = (props) => {
                 id={"file-upload"}
                 style={{ display: "none" }}
                 type="file"
+                accept=".png"
                 multiple
                 onChange={handleChange}
               />

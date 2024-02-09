@@ -2,7 +2,6 @@
   text-align: center;
 }
  
-/* This is our big boy it seems will have a layer down to implement cool css */
 /* Gonna see if i can get this guy to not be the main */
 .App-main {
   background-color: #282c34;
@@ -80,6 +79,11 @@
   cursor: pointer;
   font-size: 22px;
   border-radius: 20px;
+}
+
+.clear_files:hover{
+  background-color: transparent;
+  color: #000;
 }
 
 .upload-container #h3{
