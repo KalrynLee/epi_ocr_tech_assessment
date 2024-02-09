@@ -31,6 +31,7 @@ const App = () => {
   return (
     <div className="App">
       <LoadingSpinner open={isLoading}/>
+      {/* Dont really know how necessary this really is */}
       <main className="App-main">
         {/* <div className='shaped_bg'> */}
         <OCRComponent setIsLoading={setIsLoading}
@@ -40,6 +41,7 @@ const App = () => {
          displayError={(msg) => displayError(msg)}
          handleData={() => handleORCBreakdown()}
          imagePaths={imagePaths}
+         setProgress={setProgress}
          fileName={"Excel Export"} />
         </OCRComponent>
         {/* </div> */}

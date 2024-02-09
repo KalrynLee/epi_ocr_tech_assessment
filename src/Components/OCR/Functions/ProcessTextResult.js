@@ -47,9 +47,9 @@ export const ProcessTextResult = async (processedResult) =>{
           //Return in structured format, short cut
           return {
             "Invoice Number": processedObject['Invoice Number'],
+            "Grand Total": processedObject['Grand Total'],
             "Items Summary": processedObject['Items Summary'],
-            ...processedObject,
-            "Grand Total": processedObject['Grand Total']
+            ...processedObject
           }
       })
 }

@@ -40,6 +40,7 @@ export const HandleORCRead = async (imagePaths,setProgress) =>{
         }
       }
       if(result.length > 0){
+        //Reset the progress for next batch, statement
         return result
       }
 }

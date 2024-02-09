@@ -3,55 +3,53 @@
 }
  
 /* This is our big boy it seems will have a layer down to implement cool css */
+/* Gonna see if i can get this guy to not be the main */
 .App-main {
   background-color: #282c34;
   min-height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
   color: white;
-  /* z-index: 0; */
 }
 
-.shaped_bg{
-  height: 100vh;
-  background-color: red;
-  /* background-color: linear-gradient(to right bottom,
-  rgba(126,213,111,0.8),
-  rgba(40,180,131,0.8)); */
-  background-size: cover;
-  background-position: top;
-  position: relative;
-
-  clip-path: polygon(50% 0,100% 75vh,100% 100vh,0 100%,0 75vh);
+#button:active{
+  transform: translateY(-5px);
 }
 
+/* Styles concerning the container */
 .upload-container{
   background-color: aliceblue;
-  padding: 30px;
   height: 75vh;
   width: 50vw !important;
   font-size: 34px;
   color: black;
   border-radius: 1em;
   position: absolute;
-  /* z-index: 1; */
 }
 
-/* Gonna have to improve on and see where i can improve */
-.custom-file-upload-no-files{
-  border: 2px dashed #ccc;
-  color: black;
-  height: 3em;
-  width: 6em;
+/* Nice */
+.container_header{
+  border-radius: 1em 1em 0 0;
+  background-color: aqua;
+}
+
+.container_upload{
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
-  font-size: 22px;
-  padding: 10px;
+}
+
+.export_btn{
   cursor: pointer;
+  font-size: 30px;
+  background: lightcoral;
   border-radius: 20px;
+  padding: 30px;
 }
 
 .custom-file-upload{
@@ -59,23 +57,19 @@
   color: black;
   height: 3em;
   width: 6em;
-  background-color: #ddd;
+  background-color: transparent;
   font-size: 22px;
   padding: 10px;
   cursor: pointer;
   border-radius: 20px;
 }
 
-.custom-file-upload-files{
-  border: 2px dashed #ccc;
-  color: black;
-  height: 1em;
-  width: 1em;
-  background-color: transparent;
-  font-size: 22px;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 20px;
+.custom-file-upload:hover{
+  border: none;
+  box-shadow: 0 0 10px 5px #ddd;
+  background-color: #ddd;
+  transition: 0.2s ease-in;
+  transform: translateY(-5px);
 }
 
 .clear_files{

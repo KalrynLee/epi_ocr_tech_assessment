@@ -29,9 +29,11 @@ const OCRComponent = (props) => {
         direction={"column"}
         className="upload-container"
       >
-        <Grid item>
+        <Grid className={"container_header"} item>
           <h3>Invoice OCR Exporter</h3>
-          <Stack direction={"row"} spacing={2} sx={{ display: 'inline-flex' }}>
+        </Grid>
+        <Grid className={'container_upload'} item>
+          <Stack direction={"row"} spacing={2} sx={{ display: "inline-flex" }}>
             <div>
               <label for="file-upload" className="custom-file-upload">
                 Upload Invoices

@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -19,16 +19,6 @@ function LinearProgressWithLabel(props) {
 }
 
 const ProgressBar = (props) => {
-
-  //This thing is taking in the useEffect thing
-//   React.useEffect(() => {
-//     const timer = setInterval(() => {
-//       setProgress((prevProgress) => (prevProgress >= 100 ? 10 : prevProgress + 10));
-//     }, 800);
-//     return () => {
-//       clearInterval(timer);
-//     };
-//   }, []);
 
   return (
     <Box sx={{ width: '100%' }}>
