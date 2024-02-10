@@ -25,6 +25,10 @@ This will allow you to use the npm CLI
 
 In the project root directory (epi-use-ocr-solution), you can run:
 
+### `npm config set registry https://registry.npmjs.org/`
+
+This will set your npm registry to the standard registry, which may remove the use of proxies
+
 ### `npm install`
 
 Once you have pulled the project from the git repo, navigate to the root directory of the project and run npm install, this will initalize the nessecery dependencies required from the application
