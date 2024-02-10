@@ -73,9 +73,9 @@
 }
 
 .clear_files{
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   color: aliceblue;
-  background-color: darkred;
+  background-color: red;
   padding: 12px;
   cursor: pointer;
   font-size: 22px;

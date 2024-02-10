@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import { Stack } from "@mui/material";
+import FileUploadIcon from '@mui/icons-material/FileUpload';
 
 const OCRComponent = (props) => {
   const clearImagePaths = () => {
@@ -36,6 +37,7 @@ const OCRComponent = (props) => {
           <Stack direction={"row"} spacing={2} sx={{ display: "inline-flex" }}>
             <div>
               <label for="file-upload" className="custom-file-upload">
+                <span><FileUploadIcon style={{fontSize: '18px'}} /></span>
                 Upload Invoices
               </label>
               <input
